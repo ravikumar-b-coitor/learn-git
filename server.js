@@ -9,6 +9,7 @@ const server = http.createServer((req, res) => {
 
 console.log("Ok");
 
+// console
 // Server listens on port 3000
 const PORT = 3000;
 server.listen(PORT, () => {

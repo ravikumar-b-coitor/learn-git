@@ -7,6 +7,9 @@ const server = http.createServer((req, res) => {
 	res.end(`Hello, World! ${process.version}.\n`);
 });
 
+console.log("Ok");
+
+// console
 // Server listens on port 3000
 const PORT = 3000;
 server.listen(PORT, () => {
